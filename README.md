@@ -1,2 +1,2 @@
-# Powershell
-A spot for some powershell scripts
+
+A spot for some shell scripts
