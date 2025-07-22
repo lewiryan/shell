@@ -1,2 +1,2 @@
 
-A spot for some shell scripts
+A spot for some shell and other scripts
