@@ -7,7 +7,40 @@
     - Promotes server as domain controller
     - Creates forest and sets domain/forest mode to Windows Server 2025
     - Requires Administrator privileges
+
+    Windows Server Domain and Forest Functional Levels (excluding Win2025):
+
+Windows Server 2003:
+  - Numeric: 2
+  - String: Win2003
+
+Windows Server 2008:
+  - Numeric: 3
+  - String: Win2008
+
+Windows Server 2008 R2:
+  - Numeric: 4
+  - String: Win2008R2
+
+Windows Server 2012:
+  - Numeric: 5
+  - String: Win2012
+
+Windows Server 2012 R2:
+  - Numeric: 6
+  - String: Win2012R2
+
+Windows Server 2016:
+  - Numeric: 7
+  - String: WinThreshold
+
+Windows Server 2025:
+  - Numeric: 10
+  - String: Win2025
+
 #>
+
+
 
 #---------------------#
 # Configuration Block #
