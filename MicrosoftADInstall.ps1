@@ -36,8 +36,8 @@ Write-Host "`n[+] Promoting server to domain controller for '$DomainName'..." -F
 Install-ADDSForest `
     -DomainName $DomainName `
     -DomainNetbiosName $NetBIOSName `
-    -DomainMode Windows2025Domain `
-    -ForestMode Windows2025Forest `
+    -DomainMode Win2025 `
+    -ForestMode Win2025 `
     -DatabasePath $DatabasePath `
     -LogPath $LogPath `
     -SysvolPath $SysvolPath `
